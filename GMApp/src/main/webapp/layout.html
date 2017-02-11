@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>GitMining</title>
+<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+</head>
+<body>
+
+<div class="app">
+
+<div class="topbar">
+	<div class="input-search">
+		<input type="text" placeholder="User">
+		<a class="input-addon"><i class="fa fa-search fa-fw" aria-hidden="true"></i></a>
+	</div>
+</div>
+
+<div class="sidebar">
+	<div class="logo">GitMining</div>
+	<div class="logo-sm">GM</div>
+
+	<div class="nav">
+		<div class="nav-section">
+			<div class="nav-title">REPO<span>SITORY</span></div>
+			<a class="nav-item">
+				<i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>
+				<span>Repositories</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-bar-chart fa-fw" aria-hidden="true"></i>
+				<span>Statistics</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-magic fa-fw" aria-hidden="true"></i>
+				<span>Analysis</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-hourglass-half fa-fw" aria-hidden="true"></i>
+				<span>Evolution</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-trophy fa-fw" aria-hidden="true"></i>
+				<span>Ranking</span>
+			</a>
+		</div>
+		<div class="nav-section">
+			<div class="nav-title">USER</div>
+			<a class="nav-item active">
+				<i class="fa fa-users fa-fw" aria-hidden="true"></i>
+				<span>Users</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-pie-chart fa-fw" aria-hidden="true"></i>
+				<span>Statistics</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-exchange fa-fw" aria-hidden="true"></i>
+				<span>Relation</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-trophy fa-fw" aria-hidden="true"></i>
+				<span>Ranking</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-dot-circle-o fa-fw" aria-hidden="true"></i>
+				<span>Colosseum</span>
+			</a>
+		</div>
+		<div class="nav-section">
+			<div class="nav-title">LANG<span>UAGE</span></div>
+			<a class="nav-item">
+				<i class="fa fa-line-chart fa-fw" aria-hidden="true"></i>
+				<span>Trends</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-exchange fa-fw" aria-hidden="true"></i>
+				<span>Relation</span>
+			</a>
+			<a class="nav-item">
+				<i class="fa fa-trophy fa-fw" aria-hidden="true"></i>
+				<span>Ranking</span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="main">
+	<div class="header">
+		<h1>Users<span class="btn-filter on"><i class="fa fa-filter" aria-hidden="true"></i>Filter</span></h1>
+
+		<div class="filters-wrapper">
+			<div class="filters-section">
+				<h2>Category: </h2>
+				<a class="filter active">ALL</a>
+				<a class="filter">API</a>
+				<a class="filter">Appliaction</a>
+				<a class="filter">Mac</a>
+				<a class="filter">Windows</a>
+				<a class="filter">Linux</a>
+			</div>
+			<div class="filters-section">
+				<h2>Language: </h2>
+				<a class="filter active">ALL</a>
+				<a class="filter">HTML</a>
+				<a class="filter">CSS</a>
+				<a class="filter">JavaScript</a>
+				<a class="filter">C</a>
+				<a class="filter">C++</a>
+				<a class="filter">Objective-C</a>
+				<a class="filter">Swift</a>
+			</div>
+			<div class="filters-section">
+				<h2>Create Time: </h2>
+				<a class="filter active">ALL</a>
+				<a class="filter">2016</a>
+				<a class="filter">2015</a>
+				<a class="filter">2014</a>
+				<a class="filter">2013</a>
+				<a class="filter">2012</a>
+			</div>
+		</div>
+
+		<div class="options">
+			<a class="option active">ALL</a>
+			<a class="option">FOLLOWERS ▼</a>
+			<a class="option">REPOSITORIES ▼</a>
+		</div>
+	</div>
+	<div class="header">
+		<div class="avatar"><img src="/assets/images/avatar-64.png"></div>
+		<div class="sibling">
+			<h1><a>Jake Wharton</a></h1>
+			<p><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Pittsburgh, PA</p>
+			<p><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>jakewhartonHEYHEY@gmail.com</p>
+			<p><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Join on 2016.05.11</p>
+			<div class="tags">
+				<a class="tag">CSS</a>
+				<a class="tag">JavaScript</a>
+				<a class="tag">PHP</a>
+				<a class="tag">CSS</a>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<h1><a>ActsAsParanoid</a> / acts_as_paranoid</h1>
+		<p>ActiveRecord plugin allowing you to hide and restore records without actually deleting them.</p>
+		<p>Updated on Nov. 27, 2015</p>
+		<div class="input-url">
+			<input type="text" value="https://github.com/ActsAsParanoid/acts_as_paranoid.git">
+			<a><i class="fa fa-clipboard fa-fw" aria-hidden="true"></i></a>
+			<a><i class="fa fa-github fa-fw" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<div class="header">
+		<h1>Evolution of ActsAsParanoid / acts_as_paranoid</h1>
+		<div class="subtitle">
+			<span><i class="fa fa-star" aria-hidden="true"></i>289</span>
+			<span><i class="fa fa-code-fork" aria-hidden="true"></i>4890</span>
+			<span><i class="fa fa-users" aria-hidden="true"></i>162</span>
+		</div>
+		<p>ActiveRecord plugin allowing you to hide and restore records without actually deleting them.</p>
+	</div>
+
+		<div class="content">
+			<div class="list">
+				<div class="item item-grids">
+					<div class="item-title grid-1-1">Star-Fork Scatter Diagram</div>
+					<div class="grid-1-2 grid-1-1-md">
+						<div>General</div>
+						<div style="height: 420px;" id=""></div>
+						<div>alpha = 0.7</div>
+					</div>
+					<div class="grid-1-2 grid-1-1-md">
+						<div>Sample</div>
+						<div style="height: 420px;" id=""></div>
+						<div>P = 4.2780; F = 0.0185</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-title">Repositories' Create Time</div>
+					<div style="height: 500px;" id="repoCT"></div>
+				</div>
+				<div class="item">
+					<div class="item-title">Repositories' Forks</div>
+					<div style="height: 500px;" id="repoFork"></div>
+				</div>
+				<div class="item">
+					<div class="item-title">Repositories' Stars</div>
+					<div style="height: 500px;" id="repoStar"></div>
+				</div>
+				<div class="item">
+					<div class="item-title">Repositories' Contributions</div>
+					<div style="height: 500px;" id="repoContr"></div>
+				</div>
+				<div class="item">
+					<div class="item-title">Repositories' Collaborators</div>
+					<div style="height: 500px;" id="repoColla"></div>
+				</div>
+
+			</div>
+		</div>
+
+	<div class="content">
+		<div class="board">
+			<div class="card grid-1-1">
+				<div class="card-wrapper">
+					<!-- <div class="card-title">2012</div> -->
+					<div class="card-content">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<h1>Ranking of All Repositories</h1>
+		<div class="filters">
+			<a class="filter active">ALL</a>
+			<a class="filter">HTML</a>
+			<a class="filter">CSS</a>
+			<a class="filter">JavaScript</a>
+			<a class="filter">C</a>
+			<a class="filter">C++</a>
+			<a class="filter">Objective-C</a>
+			<a class="filter">Swift</a>
+		</div>
+	</div>
+	<div class="content">
+		<div class="board">
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<a href="#" class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>1. Jake Wharton</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+					<a class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>2. Polaris Chen</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+				</div>
+			</div>
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<a href="#" class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>21. papers_we_love</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+					<a class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>22. Polaris Chen</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<a href="#" class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>1. </span>
+						<span class="hidden-md">ActsAsParanoid / </span>
+						<span>acts_as_paranoid</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+					<a href="#" class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>2. </span>
+						<span class="hidden-md">ActsAsParanoid / </span>
+						<span>acts_as_paranoid</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+				</div>
+			</div>
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<a href="#" class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>21. </span>
+						<span class="hidden-md">ActsAsParanoid / </span>
+						<span>acts_as_paranoid</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+					<a href="#" class="ranking-item">
+						<span class="avatar"><img src=""></span>
+						<span>22. </span>
+						<span class="hidden-md">ActsAsParanoid / </span>
+						<span>acts_as_paranoid</span>
+						<span class="pull-right"><i class="fa fa-star fa-fw" aria-hidden="true"></i>4890</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="board">
+			<div class="card grid-1-5 grid-1-1-sm grid-1-3-md">
+				<div class="card-wrapper">
+					<div class="card-title">Statistics</div>
+					<div class="card-content">
+						<div class="stats">
+							<div class="stat">
+								<i class="fa fa-star fa-fw fa-pull-left fa-2x" aria-hidden="true"></i><div class="stat-value">2892</div><br>
+								<div class="stat-key">STARRED</div>
+							</div>
+							<div class="stat">
+								<i class="fa fa-github-alt fa-fw fa-pull-left fa-2x" aria-hidden="true"></i><div class="stat-value">4890</div><br>
+								<div class="stat-key">REPOSITORIES</div>
+							</div>
+							<div class="stat">
+								<i class="fa fa-users fa-fw fa-pull-left fa-2x" aria-hidden="true"></i><div class="stat-value">14296</div><br>
+								<div class="stat-key">FOLLOWERS</div>
+							</div>
+							<div class="stat">
+								<i class="fa fa-eye fa-fw fa-pull-left fa-2x" aria-hidden="true"></i><div class="stat-value">33</div><br>
+								<div class="stat-key">FOLLOWING</div>
+							</div>
+							<div class="stat">
+								<i class="fa fa-code fa-fw fa-pull-left fa-2x" aria-hidden="true"></i><div class="stat-value">3</div><br>
+								<div class="stat-key">GISTS</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card grid-2-5 grid-1-1-sm grid-2-3-md">
+				<div class="card-wrapper">
+					<div class="card-title">Score</div>
+					<div class="card-content">
+						<div class="card-image">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card grid-2-5 grid-1-1-sm grid-1-1-md">
+				<div class="card-wrapper">
+					<div class="card-title">About Other Stats</div>
+					<div class="card-content">
+					<p>Hi there:-)<br><br>
+					About other stats….<br>
+					Some data about this user is not provided by gitmining.net. Hence some stats won’t be able to show at present. Please view other users. We hope gitmining.net could provide more data in the soon future.<br>
+					<br>
+					Yours sincerely,<br>
+					Cross</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="board">
+			<div class="card grid-3-4 grid-2-3-md grid-1-1-sm">
+				<div class="card-wrapper">
+					<a class="item">
+						<div class="avatar hidden-md"><img src=""></div>
+						<div class="sibling">
+							<div class="item-title">Polaris Chen</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Pittsburgh, PA</span>
+								<span><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>jakewharton@gmail.com</span>
+								<span><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Join on 2016.05.11</span>
+							</div>
+						</div>
+					</a>
+					<a class="item">
+						<div class="avatar hidden-md"><img src=""></div>
+						<div class="sibling">
+							<div class="item-title">Polaris Chen</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Pittsburgh, PA</span>
+								<span><i class="fa fa-envelope fa-fw" aria-hidden="true"></i>jakewharton@gmail.com</span>
+								<span><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>Join on 2016.05.11</span>
+							</div>
+						</div>
+					</a>
+
+					<a class="item">
+						<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+						<div class="item-line item-number">
+							<span><i class="fa fa-star" aria-hidden="true"></i>289</span>
+							<span><i class="fa fa-code-fork" aria-hidden="true"></i>4890</span>
+							<span><i class="fa fa-users" aria-hidden="true"></i>162</span>
+						</div>
+						<div class="item-line">
+							Graticule is a geocoding API for looking up address coordinates and performing distance calculations, supporting many popular APIs.
+						</div>
+						<div class="item-line item-line-s">
+							Updated on Nov. 27, 2015
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="card grid-1-4 grid-1-3-md hidden-sm">
+				<div class="card-wrapper">
+					<div class="card-title">
+						Featured Recommendations
+					</div>
+					<div class="card-content">
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+							<div class="item-line line-2">
+								Graticule is a geocoding API for looking up address coordinates and performing distance calculations, supporting many popular APIs.
+							</div>
+						</a>
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+							<div class="item-line line-2">
+								Graticule is a geocoding API for looking up address coordinates and performing distance calculations, supporting many popular APIs.
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="card-wrapper">
+					<div class="card-title">
+						Top 5 Repositories
+					</div>
+					<div class="card-content">
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<div class="card-title">
+						Featured Recommendations by Tags
+					</div>
+					<div class="card-content">
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+						</a>
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+						</a>
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<div class="card-title">
+						Featured Recommendations by Owner
+					</div>
+					<div class="card-content">
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+						</a>
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+						</a>
+						<a class="item">
+							<div class="item-title">ActsAsParanoid / acts_as_paranoid</div>
+							<div class="item-line item-number">
+								<span><i class="fa fa-star fa-fw" aria-hidden="true"></i>289</span>
+								<span><i class="fa fa-code-fork fa-fw" aria-hidden="true"></i>4890</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<div class="card-title">
+						Featured Recommendations by Tags
+					</div>
+					<div class="card-content">
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="card grid-1-2 grid-1-1-sm">
+				<div class="card-wrapper">
+					<div class="card-title">
+						Featured Recommendations by Owner
+					</div>
+					<div class="card-content">
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+						<a class="item">
+							<div class="avatar avatar-s"><img src=""></div>
+							<div class="sibling">
+								<div class="item-title">Polaris Chen</div>
+								<div class="item-line item-number">
+									<span><i class="fa fa-users fa-fw" aria-hidden="true"></i>289</span>
+									<span><i class="fa fa-github-alt fa-fw" aria-hidden="true"></i>4890</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="list">
+			<div class="item">
+				<div class="item-title">Numbers of Repository in Different Languages</div>
+				<div class="item-image">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="pages">
+			<a class="page">&lt;</a>
+			<a class="page active">1</a>
+			<a class="page">2</a>
+			<a class="page disable">...</a>
+			<a class="page">99</a>
+			<a class="page">100</a>
+			<a class="page">101</a>
+			<a class="page">&gt;</a>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() { 
+	    $(".sidebar").niceScroll({
+		    cursorcolor: "#777",
+		    cursorwidth: "5px",
+		    cursorborder: "0px solid #fff",
+		    cursorborderradius: "7px",
+		    scrollspeed: 70,
+		    mousescrollstep: 40
+		});
+		// Filter
+		var $filters = $(".filters-wrapper");
+		$(".btn-filter").click(function(event) {
+			if ($(this).hasClass("on")) {
+				$(this).removeClass("on");
+				$filters.slideUp();
+			} else {
+				$(this).addClass("on");
+				$filters.slideDown();
+			}
+		});
+	});
+</script>
+
+</body>
+</html>

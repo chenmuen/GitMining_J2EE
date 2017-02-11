@@ -1,0 +1,63 @@
+/*
+ * Colors
+ */
+$white-color:           #FFFFFF;
+$gray-color:            #303A40;
+$gray-color-light:      #3A464D;
+$gray-color-dark:       #1D2326;
+
+$text-color:            #4A4A4A;
+$text-color-light:      #868686;
+$text-color-dark:       #2A2A2A;
+$background-color:      $white-color;
+$background-color-alt:  #F5F5F5;
+$background-color-third:#F8F8F8;
+$primary-color:         #5CC0BF;
+$primary-color-light:   #7BE2CE;
+$secondary-color: 	    #2B879E;
+$secondary-color-light: lighten($secondary-color, 14%);
+
+$link-color:         $primary-color;
+$link-color-hover:   darken($link-color, 16);
+$link-color-visited: $link-color;
+$link-color-focus:   darken($link-color-visited, 16);
+
+
+/*
+ * Sizes
+ */
+$spacing-unit:  30px;
+$content-width: 1010px;
+
+$on-mobile-min: 374px;	// -xs-min
+$on-mobile:     567px;  // -xs
+$on-palm-min:   620px;  // -sm-min
+$on-palm:       780px;  // -sm
+$on-laptop:     980px;  // -md
+$on-desktop:    1300px; // -lg
+
+
+/*
+ * Fonts
+ */
+$font-weight-thin: 	      100;
+$font-weight-ultra-light: 200;
+$font-weight-light:       300;
+$font-weight-normal:      400;
+$font-weight-medium:      500;
+$font-weight-semi-bold:   600;
+$font-weight-bold:        700;
+$font-weight-ultra-bold:  800;
+$font-weight-black:       900;
+
+// $base-font-family:   "Pingfang SC", "Open Sans", "Lantinghei SC", "Microsoft Yahei Light", "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$base-font-family:   "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$brand-font-family:  "TCC Sans Normal";
+$caps-font-family:   "Bebas Neue Book";
+$marker-font-family: "Permanent Marker Regular";
+$code-font-family:   "Klartext Mono Light";
+$script-font-family: "Tangerine Regular";
+$base-font-size:     .875rem;
+$base-font-weight:   $font-weight-normal;
+$small-font-size:    .75rem;
+$base-line-height:   1.5;

@@ -1,0 +1,18 @@
+{
+  "name": "gitminingdataspider",
+  "version": "1.0.0",
+  "description": "A Node.js project to request github api and get data for gitmining webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "eventproxy": "^0.3.4",
+    "mysql": "2.10.2",
+    "request": "^2.72.0",
+    "sequelize": "^3.23.2"
+  }
+}

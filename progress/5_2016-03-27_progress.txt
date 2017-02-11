@@ -1,0 +1,23 @@
+who：陈灿海
+when：第5周
+what：研究 JFreeChart 与 JavaFX 结合的应用并实现；修改部分图表默认样式
+problem：JFreeChart 默认图表样式较为丑陋，部分修改起来较为繁琐
+todo：继续实现图表模块；开发 BL 层
+
+who：陈睿
+when：第5周
+what：重构UI层, 完成架构设计, Repository 和 User 部分的 list 的内容
+problem：页标实现细节, 动画细节还未实现
+todo：开发 UI 层
+
+who：陈丹妮
+when：第5周
+what：重构UI层, 完成架构设计, Repository 和 User 部分的 statistics 和 detail 的内容
+problem：动画细节还未实现，一些数据还没有加上去
+todo：开发 UI 层
+
+who：陈沐恩
+when：第5周
+what：开发Data层，进行本地数据的获取和整理
+problem：数据量较大，处理起来较为繁琐，且有脏数据的存在
+todo：开发 Data 层

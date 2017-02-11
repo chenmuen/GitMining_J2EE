@@ -1,0 +1,36 @@
+.index-pnf {
+	.index-header {
+		width: 100%;
+		position: fixed;
+	}
+}
+
+
+section.pnf {
+	height: 100vh;
+	padding-left: $h-edge;
+	padding-top: 200px;
+	@include background-cover("../images/cover-tower", ".png");
+	color: $white-color;
+	text-align: left;
+	font-family: $code-font-family;
+	p {
+		font-size: rem(36);
+		span {
+			font-size: rem(101);
+		}
+	}
+	a {
+		display: inline-block;
+		width: auto;
+		height: 48px;
+		margin-top: 94px;
+		padding: 0 32px;
+		background-color: $white-color;
+		color: #7F7F7F;
+		font-family: $brand-font-family;
+		font-size: 24px;
+		line-height: 48px;
+		// @include block-center;
+	}
+}

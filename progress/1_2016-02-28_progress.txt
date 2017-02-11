@@ -1,0 +1,23 @@
+﻿who：陈灿海
+when：第1周
+what：建立团队；建立项目 GitMining
+problem：无
+todo：确定项目协作规范；迭代一详细分工
+
+who：陈睿
+when：第1周
+what：与组长、组员讨论项目选题，加入项目
+problem：无
+todo：确定分工和进一步的计划
+
+who：陈丹妮
+when：第1周
+what：加入项目，了解项目详情
+problem：无
+todo：确定分工；进一步了解项目
+
+who：陈沐恩
+when：第1周
+what：讨论项目选题；加入项目
+problem：无
+todo：确定分工与计划；完成部分代码与文档

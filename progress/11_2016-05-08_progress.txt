@@ -1,0 +1,23 @@
+﻿who：陈灿海
+when：第11周
+what：初步确定迭代三新需求；确定迭代二项目转化为Java Web项目；确定转化分工
+problem：无
+todo：转化迭代二项目；进一步确定迭代三新需求；迭代三开发
+
+who：陈丹妮
+when：第11周
+what：讨论并初步确定迭代三新需求；确定转化分工；确定迭代三为Java Web项目
+problem：无
+todo：转化迭代二项目；进一步确定迭代三新需求；迭代三开发
+
+who：陈睿
+when：第11周
+what：研究了评分系统,项目演化等需求;确定分工
+problem：无
+todo：开发 Service, 进一步确定需求(评分系统等)
+
+who：陈沐恩
+when：第11周
+what：研究ssh框架；对Web端项目进行初步架构；思考代码迁移；确定Web端接口
+problem：无
+todo：设计数据库，开发DAO，完善架构

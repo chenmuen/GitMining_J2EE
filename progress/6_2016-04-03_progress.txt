@@ -1,0 +1,23 @@
+﻿who：陈灿海
+when：第6周
+what：修改部分图表默认样式；尝试结合 BL 部分
+problem：JFreeChart 默认图表样式较为丑陋，部分修改起来较为繁琐
+todo：继续实现图表模块；继续开发 BL 层
+
+who：陈丹妮
+when：第6周
+what：进一步完善界面，重写一部分布局方式
+problem：界面还需完善，图表还没有加上去
+todo：加数据界面的图表；继续开发 UI 层
+
+who：陈沐恩
+when：第6周
+what：进行本地数据和数据代码的整合，重写json转化规则
+problem：部分数据缺失，不对应
+todo：继续开发 Data 层
+
+who：陈睿
+when：第6周
+what：进一步完善界面, 增加组件/细节部分
+problem：图表/细节/适当动画需要琢磨
+todo：继续开发 UI 层

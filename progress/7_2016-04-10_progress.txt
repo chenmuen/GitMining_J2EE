@@ -1,0 +1,23 @@
+﻿who：陈灿海
+when：第7周
+what：进一步与实际数据结合修改图表呈现样式；设计返回按钮
+problem：JFreeChart 的雷达图不符合预想效果，需额外修改；无提供 Punch Card 图表，需额外实现
+todo：继续实现图表模块；测试项目；准备部署
+
+who：陈沐恩
+when：第7周
+what：进行数据的爬取和整合；进行部分BL层的开发；进行Data层的完善，新增了部分接口
+problem：部分数据难以获取；Data层接口不能满足需求BL
+todo：开发BL层；获取完整数据
+
+who：陈睿
+when：第7周
+what：完成了 UI List 部分所有内容; 进行 User 部分 BL 开发; 完善 UI 层样式
+problem：BL层数据获取有些问题, 统计有难度
+todo：开发BL层；调整界面样式
+
+who：陈丹妮
+when：第7周
+what：完成了 UI Detail，UI Statistic 部分所有内容; 完善 UI 层样式；加入统计图表
+problem：统计数据有些问题，表现形式与度量需改良
+todo：加完所有图表，调整界面样式，改良数据度量
